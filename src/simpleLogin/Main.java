@@ -12,11 +12,10 @@ public class Main{
         String username = sc.nextLine();
 
         Map<String, String> map = new HashMap<>();
-        map.put("username", username);
+        // map.put("username", username);
         map.put("Odelia", "s9711243f");
-
-        Integer numberoftimes = 0;
-        while(numberoftimes < 3){
+        
+        for(Integer i = 0; i < 3; i++) {
             System.out.println("Enter your password:");
             String password = sc.nextLine();
 
