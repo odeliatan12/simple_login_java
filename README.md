@@ -1,0 +1,1 @@
+Write a simple login program in Java that prompts the user for a username and password, and then verifies the input against a predefined username and password. The program will continue to prompt the user for input until the correct username and password are entered, or until the user enters "q" to quit the program:
